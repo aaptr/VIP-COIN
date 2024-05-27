@@ -1,0 +1,18 @@
+{
+    "name": "vip-coin",
+    "version": "1.0.0",
+    "main": "index.js",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build --open"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.12.0",
+        "parcel": "^2.12.0",
+        "sass": "^1.77.2"
+    }
+}
