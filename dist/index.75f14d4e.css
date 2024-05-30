@@ -196,10 +196,10 @@ footer {
   justify-content: space-between;
   align-items: space-between;
   flex-wrap: wrap;
-  gap: 20px 100px;
+  gap: 20px 98px;
   width: 100%;
   max-width: 1920px;
-  margin: 20px;
+  padding: 20px;
   display: flex;
 }
 
