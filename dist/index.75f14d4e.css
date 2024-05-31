@@ -216,6 +216,7 @@ footer {
   padding-bottom: 100px;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
 
 .targets__title {
@@ -229,8 +230,7 @@ footer {
 
 .targets__ellipse {
   background: radial-gradient(50% 50%, #ff333380 0%, #f330 100%);
-  width: 100%;
-  max-width: 3190px;
+  width: 3190px;
   height: 770px;
   position: absolute;
   top: 2px;
@@ -298,7 +298,7 @@ footer {
 }
 
 .targets__article {
-  z-index: 2;
+  z-index: 1;
   background-color: #000;
   position: relative;
 }
@@ -325,13 +325,56 @@ footer {
 
 .targets__article:after {
   content: "";
-  border: .5px solid #f33;
+  z-index: 1;
+  border: 1px solid #f33;
   border-radius: 50%;
   width: 665px;
   height: 278px;
   position: absolute;
-  top: 26%;
+  top: 26.5%;
   left: 20%;
   transform: rotate(16deg);
+}
+
+.vip-usdt {
+  background-color: #fff;
+  font-family: Futura PT, sans-serif;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.vip-usdt__wrapper {
+  justify-content: center;
+  gap: 15%;
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px 0;
+  display: flex;
+}
+
+.vip-usdt__text {
+  flex-direction: column;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+}
+
+.vip-usdt__text p {
+  font-size: 90px;
+}
+
+.vip-usdt__chart {
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+}
+
+.vip-usdt__chart p {
+  width: 100%;
+  max-width: 335px;
+  font-size: 24px;
 }
 /*# sourceMappingURL=index.75f14d4e.css.map */

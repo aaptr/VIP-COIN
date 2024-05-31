@@ -211,6 +211,7 @@ footer {
 
 .targets {
     background-color: #000000;
+
 }
 
 .targets__container {
@@ -222,6 +223,8 @@ footer {
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .targets__title {
@@ -234,8 +237,8 @@ footer {
 }
 
 .targets__ellipse {
-    max-width: 3190px;
-    width: 100%;
+    width: 3190px;
+    // width: 100%;
     height: 770px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
     transform: rotate(0.75deg);
@@ -307,7 +310,7 @@ footer {
 
 .targets__article {
     background-color: #000000;
-    z-index: 2;
+    z-index: 1;
     position: relative;
 }
 
@@ -336,14 +339,56 @@ footer {
 .targets__article::after {
     content: '';
     position: absolute;
-    top: 26%;
+    top: 26.5%;
     left: 20%;
-    border: 0.5px solid #FF3333;
+    border: 1px solid #FF3333;
     border-radius: 50% 50%;
     transform: rotate(16deg);
     width: 665px;
     height: 278px;
+    z-index: 1;
+}
 
+.vip-usdt {
+    background-color: #FFFFFF;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 300;
+    line-height: 130%;
+}
+
+.vip-usdt__wrapper {
+    max-width: 1920px;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.vip-usdt__text {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.vip-usdt__text p {
+    font-size: 90px;
+}
+
+.vip-usdt__chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.vip-usdt__chart p {
+    font-size: 24px;
+    max-width: 335px;
+    width: 100%;
 }
 
 /* font-family: 'Futura PT', sans-serif; */
