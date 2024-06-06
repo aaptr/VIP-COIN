@@ -190,17 +190,41 @@ footer {
 
 .games__section {
   background-color: #fff;
+  overflow: hidden;
 }
 
 .games__section_wrapper {
-  justify-content: space-between;
-  align-items: space-between;
-  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px 98px;
   width: 100%;
-  max-width: 1920px;
   padding: 20px;
   display: flex;
+}
+
+.games_line1 {
+  animation: 10s linear infinite alternate scroll;
+}
+
+.games_line1:hover {
+  animation-play-state: paused;
+}
+
+.games_line2 {
+  animation: 10s linear infinite alternate-reverse scroll;
+}
+
+.games_line2:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(20%);
+  }
 }
 
 .targets {
@@ -225,6 +249,7 @@ footer {
   font-family: Lato, sans-serif;
   font-size: 100px;
   font-weight: 500;
+  line-height: 130%;
 }
 
 .targets__ellipse {
@@ -374,5 +399,162 @@ footer {
   width: 100%;
   max-width: 335px;
   font-size: 24px;
+}
+
+.staking {
+  background-color: #000;
+  padding-top: 31px;
+  padding-bottom: 100px;
+}
+
+.staking__text-block {
+  background: radial-gradient(50% 50%, #ff333380 0%, #f330 100%);
+  width: 100%;
+  max-width: 1130px;
+  margin: auto;
+  padding: 171px 115px 202px 9px;
+  position: relative;
+}
+
+.staking__text-block:after {
+  content: "";
+  box-sizing: border-box;
+  z-index: 1;
+  border: .5px solid #f33;
+  border-radius: 50%;
+  width: 638.12px;
+  height: 266.7px;
+  position: absolute;
+  top: 30%;
+  left: 22%;
+  transform: rotate(15.78deg);
+}
+
+.staking__title {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 130%;
+  position: relative;
+}
+
+.staking__title:before {
+  content: "Как добыть монеты до выхода на биржу?";
+  color: #fff;
+  width: 100%;
+  max-width: 210px;
+  font-family: Futura PT, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  position: absolute;
+  top: -60%;
+  left: 89px;
+}
+
+.staking__title:after {
+  content: "начисление монет VIP-coin по заданному алгоритму при депозите в USD";
+  color: #fff;
+  width: 100%;
+  max-width: 266px;
+  font-family: Futura PT, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  position: absolute;
+  bottom: -20%;
+  right: -2%;
+  transform: translate(50%, 100%);
+}
+
+.staking__chart {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 1370px;
+  height: 209px;
+  margin: 31px auto auto;
+  display: flex;
+}
+
+.staking__chart-block {
+  background: linear-gradient(130.66deg, #ffffff4d -19.06%, #fff0 31.37%), #000;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 319px;
+  height: 100%;
+  padding: 0 19px;
+  display: flex;
+  box-shadow: -5px -5px 20px #ffffff4d, inset 30px 30px 36px #15151580;
+}
+
+.staking__chart-block p {
+  color: #fff;
+  text-align: center;
+  font-family: Futura PT, sans-serif;
+}
+
+.staking__chart-block p:first-child {
+  width: 70%;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.staking__chart-block p:last-child {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.packets {
+  background-color: #fff;
+}
+
+.packets__wrapper {
+  width: 100%;
+  max-width: 1920px;
+  padding: 100px 310px;
+}
+
+.packets__text-block {
+  justify-content: space-between;
+  align-items: center;
+  gap: 248px;
+  width: 100%;
+  padding-bottom: 78px;
+  display: flex;
+}
+
+.packets__text-block p:first-child {
+  font-family: Lato, sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.packets__text-block p:last-child {
+  font-family: Futura PT, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  transform: translateY(50%);
+}
+
+.swiper {
+  width: 1130px;
+  height: 360px;
+}
+
+.swiper-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 /*# sourceMappingURL=index.75f14d4e.css.map */
