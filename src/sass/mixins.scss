@@ -1,8 +1,14 @@
 @mixin rhomb_gradient {
-    // width: 70.7%;
-    // height: 70.7%;
     transform: rotate(45deg);
     background: linear-gradient(#FF3333, #FF333300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rhomb {
+    transform: rotate(45deg);
+    background: #FF3333;
     display: flex;
     justify-content: center;
     align-items: center;

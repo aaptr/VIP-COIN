@@ -40,6 +40,12 @@ footer {
     height: 70.7%;
 }
 
+.rhomb {
+    @include rhomb;
+    width: 70.7%;
+    height: 70.7%;
+}
+
 .header_footer_rhomb_wrapper {
     width: 86px;
     height: 86px;
@@ -559,6 +565,422 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.referal {
+    background-color: #000000;
+}
+
+.referal__text-block {
+    max-width: 1140px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
+    padding: 171px 0 202px 0;
+    position: relative;
+
+    p {
+        @include title;
+        color: #FFFFFF;
+        font-size: 110px;
+        text-wrap: nowrap;
+        left: 9px;
+    }
+}
+
+.referal__text-block::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 638.12px;
+    height: 266.7px;
+    left: 23%;
+    top: 31%;
+    border: 0.5px solid #FF3333;
+    border-radius: 50% 50%;
+    transform: rotate(15.78deg);
+}
+
+.referal__text-block::after {
+    content: 'стейкинг взаимный, потому что вы получаете проценты от депозитов ваших партнеров';
+    position: absolute;
+    font-family: 'Futura PT', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    max-width: 358px;
+    width: 100%;
+    bottom: 10%;
+    right: -14%;
+}
+
+.referal__chart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    font-family: 'Futura PT', sans-serif;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.referal__chart-block {
+    box-sizing: border-box;
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
+    border-radius: 8px;
+    padding-left: 30px;
+    max-width: 554px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 2fr 1fr;
+    grid-template-columns: 21% 18% 61%;
+}
+
+.referal__chart-title {
+    grid-row: 1/3;
+    grid-column: 1/3;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 120%;
+    max-width: 148px;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.referal__chart-text1 {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.referal__chart-text2 {
+    font-size: 26px;
+    font-weight: 400;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.chart_small_text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.example_text {
+    grid-row: 4/5;
+    grid-column: 2/4;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+
+.note_text {
+    grid-row: 5/6;
+    grid-column: 3/4;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.chart_wrapL {
+    grid-row: 3/4;
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.chart_wrapP {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.referal_rhomb_wrapper {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    width: 60px;
+    height: 60px;
+    transform: translateY(0%);
+    margin-top: 30px;
+
+    p {
+        color: #FFFFFF;
+        font-size: 24px;
+        transform: rotate(-45deg);
+    }
+}
+
+.promo {
+    background-color: #FFFFFF;
+}
+
+.promo__title {
+    @include title;
+    max-width: 1920px;
+    width: 100%;
+    color: #FF3333;
+    font-size: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin-top: 128px;
+    margin-bottom: 100px;
+}
+
+.promo_title_rhomb_wrapper {
+    width: 212px;
+    height: 212px;
+}
+
+.promo__container {
+    max-width: 1920px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.promo__fast-start-title {
+    display: flex;
+    justify-content: start;
+}
+
+.promo__fast_start_subtitle {
+    @include title;
+    font-size: 110px;
+    max-width: 560px;
+    width: 100%;
+    margin-left: 390px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.promo__fast_start_subtitle::after {
+    content: 'Удвойте свой маркетинг на неделю и получите мгновенный бонус';
+    max-width: 348px;
+    width: 100%;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    position: absolute;
+    right: -225px;
+    bottom: 23px;
+}
+
+.promo_fast_start_sub_rhomb_wrapper {
+    width: 141.42px;
+    height: 141.42px;
+    transform: translateY(18%);
+
+    p {
+        font-family: 'Futura PT', sans-serif;
+        color: #FFFFFF;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 130%;
+        transform: rotate(-45deg);
+    }
+}
+
+.promo__fast-start-container {
+    max-width: 1370px;
+    width: 100%;
+    border: 2px solid #FF3333;
+    border-radius: 8px;
+    padding: 100px 115px;
+    margin: auto;
+
+    p {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    h3 {
+        font-family: 'Futura PT', sans-serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 120%;
+        width: 60%;
+    }
+}
+
+.promo__fast-start-text {
+    max-width: 681px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.promo__fast-start-chart {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.promo__fast-start-block {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+}
+
+.promo_fast_start_block_rhomb_wrapper {
+    width: 84.85px;
+    height: 84.85px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    p {
+        font-family: 'Futura PT', sans-serif;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 130%;
+        transform: rotate(-45deg);
+    }
+}
+
+.promo__heat_subtitle {
+    @include title;
+    font-size: 110px;
+    margin: 100px 390px;
+    position: relative;
+}
+
+.promo__heat_subtitle::after {
+    content: 'Получайте призы за оборот всех 6-ти линий';
+    font-family: 'Futura PT', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    transform: translateY(100%);
+}
+
+.promo__prize-container {
+    max-width: 1370px;
+    width: 100%;
+    border: 2px solid #FF3333;
+    border-radius: 8px;
+    padding: 100px 115px;
+    margin: auto;
+    font-family: 'Futura PT', sans-serif;
+
+    h3 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 120%;
+        padding-top: 50px;
+        // padding-bottom: 20px;
+    }
+
+    .prize_text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 130%;
+        padding-top: 20px;
+        max-width: 771px;
+        width: 100%;
+
+        span {
+            color: #FF3333;
+        }
+    }
+}
+
+.promo__prize-chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 43px;
+}
+
+.promo__prize-block {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 193px;
+    width: 100%;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: center;
+
+    img {
+        margin: auto;
+    }
+
+    .promo_prize_cost {
+        font-size: 24px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+.prize_table_block {
+    border: 1px solid #FF333380;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 690px;
+    width: 100%;
+    font-family: 'Futura PT', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+
+    .prize_table_wrap2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+        p:first-child {
+            color: #FF3333;
+        }
+
+        p:last-child {
+            color: #00000080;
+        }
+    }
+}
+
+.promo__tesla_subtitle {
+    @include title;
+    font-size: 110px;
+    margin: 100px 390px;
+    position: relative;
+}
+
+.promo__tesla_subtitle::after {
+    content: 'Получайте призы за оборот всех 6-ти линий';
+    font-family: 'Futura PT', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130%;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    transform: translateY(100%);
 }
 
 /* font-family: 'Futura PT', sans-serif; */
