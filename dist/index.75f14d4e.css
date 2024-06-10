@@ -191,7 +191,7 @@ footer {
   border: none;
   width: 244px;
   height: 70px;
-  padding: auto;
+  margin: auto;
   font-family: Futura PT, sans-serif;
   font-size: 24px;
   text-decoration: none;
@@ -558,14 +558,62 @@ footer {
 }
 
 .swiper {
-  width: 1130px;
-  height: 360px;
+  width: 100%;
+  display: flex;
 }
 
 .swiper-wrapper {
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  padding-top: 50px;
+}
+
+.swiper-slide {
+  text-align: center;
+  border: 2px solid #f33;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 250px;
+  padding: 70px 0 30px;
+  font-family: Futura PT, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  position: relative;
+}
+
+.swiper-slide .slide__packet-cost {
+  color: #f33;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.swiper-slide .slide__packet-text1 {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.swiper-slide .slide__packet-text1 span {
+  font-weight: 600;
+}
+
+.swiper-slide .slide__packet-text2 {
+  padding-top: 50px;
+  font-size: 22px;
+}
+
+.swiper-slide .slide__rhomb_wrapper {
+  z-index: 1;
+  width: 86px;
+  height: 86px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-slide .slide__rhomb_wrapper p {
+  color: #fff;
+  font-size: 24px;
+  transform: rotate(-45deg);
 }
 
 .referal {
@@ -980,5 +1028,150 @@ footer {
   bottom: -20px;
   left: 0;
   transform: translateY(100%);
+}
+
+.roadmap {
+  background-color: #000;
+}
+
+.roadmap__container {
+  background: radial-gradient(50% 50%, #ff333380 0%, #f330 100%);
+  width: 100%;
+  max-width: 1920px;
+  padding: 133px 0 100px;
+}
+
+.roadmap__container .roadmap__container_title {
+  gap: 150px;
+  width: 100%;
+  padding: 0 0 100px 391px;
+  display: flex;
+}
+
+.roadmap__container .roadmap__container_title h2 {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 130%;
+  top: -33px;
+  left: 391px;
+}
+
+.roadmap__container .roadmap__container_title p {
+  color: #fff;
+  width: 100%;
+  max-width: 288px;
+  font-family: Futura PT, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 130%;
+  top: 39px;
+  right: 609px;
+  transform: translateY(70px);
+}
+
+.roadmap__container .roadmap__grid-container {
+  grid-template-rows: repeat(3, 250px);
+  grid-template-columns: repeat(5, 260px);
+  gap: 30px;
+  width: 100%;
+  padding: 0 275px;
+  display: grid;
+}
+
+.roadmap__container .roadmap__grid-container .roadmap__grid-block {
+  box-sizing: border-box;
+  color: #fff;
+  background: linear-gradient(130.66deg, #ffffff4d -19.06%, #fff0 31.37%), #000;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  font-family: Futura PT, sans-serif;
+  font-weight: 400;
+  line-height: 130%;
+  display: flex;
+  box-shadow: -5px -5px 20px #0000004d, inset 30px 30px 36px #15151580;
+}
+
+.roadmap__container .roadmap__grid-container .roadmap__grid-block .roadmap-block-date {
+  font-size: 14px;
+}
+
+.roadmap__container .roadmap__grid-container .roadmap__grid-block .roadmap-block-text {
+  font-size: 20px;
+}
+
+.join {
+  background-color: #000;
+}
+
+.join__container {
+  background: radial-gradient(50% 50%, #ff333380 0%, #f330 100%);
+  flex-direction: column;
+  width: 100%;
+  max-width: 1130px;
+  margin: auto;
+  padding: 52px 0;
+  display: flex;
+}
+
+.join__container .join__container-title {
+  flex-direction: column;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+}
+
+.join__container .join__container-title h2 {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.join__container .join__container-title h2:nth-child(2) {
+  align-self: center;
+}
+
+.join__container .join__container-title h2:nth-child(3) {
+  align-self: end;
+}
+
+.join__container .join__container-title .join_rhomb_wrapper {
+  width: 107px;
+  height: 107px;
+  position: absolute;
+  top: 50%;
+  right: 67px;
+  transform: translateY(-50%);
+}
+
+.join__container .join__container-title .join_rhomb_wrapper p {
+  color: #fff;
+  font-size: 14px;
+  transform: rotate(-45deg);
+}
+
+.join__container .register_button {
+  margin-bottom: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.join__container .join__link {
+  color: #f33;
+  text-align: center;
+  font-family: Futura PT, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration: none;
+}
+
+.join__container .join__link:visited {
+  color: #f33;
 }
 /*# sourceMappingURL=index.75f14d4e.css.map */

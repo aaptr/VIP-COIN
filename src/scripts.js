@@ -1,8 +1,15 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    loop: true,
-    slidesPerView: 3,
+    // loop: true,
+    // loopPreventsSliding: true,
+    slidesPerView: "auto",
     spaceBetween: 40,
+    autoHeight: true,
+    centeredSlides: true,
+    rewind: true,
+    centerInsufficientSlides: true,
+    cssMode: true,
+
 
     // // If we need pagination
     // pagination: {

@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // font-family: 'Futura PT', sans-serif;
 }
 
 header {
@@ -185,12 +184,12 @@ footer {
     background-color: #FF3333;
     border: none;
     color: #FFFFFF;
-    padding: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Futura PT', sans-serif;
     font-size: 24px;
+    margin: auto;
 }
 
 .games__section {
@@ -557,17 +556,69 @@ footer {
 }
 
 .swiper {
-    width: 1130px;
-    height: 360px;
+    width: 100%;
+    display: flex;
+
 }
 
 .swiper-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding-top: 50px;
+    // gap: 40px;
+    // padding: 50px 80px;
 }
 
+.swiper-slide {
+    max-width: 250px;
+    width: 100%;
+    padding: 70px 0 30px 0;
+    border: 2px solid #FF3333;
+    border-radius: 8px;
+    font-family: 'Futura PT', sans-serif;
+    font-weight: 400;
+    line-height: 130%;
+    text-align: center;
+    position: relative;
 
+    .slide__packet-cost {
+        color: #FF3333;
+        font-weight: 600;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .slide__packet-text1 {
+        font-size: 24px;
+        margin: 20px 0;
+
+        span {
+            font-weight: 600;
+        }
+    }
+
+    .slide__packet-text2 {
+        font-size: 22px;
+        padding-top: 50px;
+    }
+
+    .slide__rhomb_wrapper {
+        width: 86px;
+        height: 86px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+
+        p {
+            color: #FFFFFF;
+            font-size: 24px;
+            transform: rotate(-45deg);
+        }
+    }
+}
 
 .referal {
     background-color: #000000;
@@ -981,6 +1032,147 @@ footer {
     left: 0px;
     bottom: -20px;
     transform: translateY(100%);
+}
+
+.roadmap {
+    background-color: #000000;
+}
+
+.roadmap__container {
+    max-width: 1920px;
+    width: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
+    padding: 133px 0 100px 0;
+
+    .roadmap__container_title {
+        width: 100%;
+        padding: 0 0 100px 391px;
+        display: flex;
+        gap: 150px;
+
+        h2 {
+            @include title;
+            color: #FFFFFF;
+            font-size: 110px;
+            top: -33px;
+            left: 391px;
+        }
+
+        p {
+            color: #FFFFFF;
+            font-family: 'Futura PT', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 130%;
+            max-width: 288px;
+            width: 100%;
+            top: 39px;
+            right: 609px;
+            transform: translateY(70px);
+        }
+    }
+
+    .roadmap__grid-container {
+        padding: 0 275px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, 250px);
+        grid-template-columns: repeat(5, 260px);
+        gap: 30px;
+
+        .roadmap__grid-block {
+            box-sizing: border-box;
+            background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+            box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
+            border-radius: 8px;
+            padding: 20px;
+            color: #FFFFFF;
+            font-family: 'Futura PT', sans-serif;
+            font-weight: 400;
+            line-height: 130%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .roadmap-block-date {
+                font-size: 14px;
+            }
+
+            .roadmap-block-text {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.join {
+    background-color: #000000;
+}
+
+.join__container {
+    max-width: 1130px;
+    width: 100%;
+    padding: 52px 0;
+    margin: auto;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
+    display: flex;
+    flex-direction: column;
+
+    .join__container-title {
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        h2 {
+            @include title;
+            color: #FFFFFF;
+            font-size: 110px;
+        }
+
+        h2:nth-child(2) {
+            align-self: center;
+        }
+
+        h2:nth-child(3) {
+            align-self: end;
+        }
+
+        .join_rhomb_wrapper {
+            width: 107px;
+            height: 107px;
+            position: absolute;
+            right: 67px;
+            top: 50%;
+            transform: translateY(-50%);
+
+            p {
+                color: #FFFFFF;
+                font-size: 14px;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    .register_button {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 30px;
+    }
+
+    .join__link {
+        font-family: 'Futura PT', sans-serif;
+        color: #FF3333;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 180%;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .join__link:visited {
+        color: #FF3333;
+    }
 }
 
 /* font-family: 'Futura PT', sans-serif; */
