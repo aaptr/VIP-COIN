@@ -534,6 +534,7 @@ footer {
 }
 
 .packets__text-block {
+    padding: 0 81px;
     width: 100%;
     padding-bottom: 78px;
     display: flex;
@@ -556,12 +557,21 @@ footer {
 }
 
 .swiper {
+    // max-width: 1130px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+}
 
+.arrow_right {
+    transform: rotate(180deg);
 }
 
 .swiper-wrapper {
+    max-width: 1120px;
+    width: 100%;
     // display: flex;
     // justify-content: center;
     // align-items: center;

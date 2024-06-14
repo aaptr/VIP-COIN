@@ -1,13 +1,14 @@
 const swiper = new Swiper(".swiper", {
     // Optional parameters
-    // loop: true,
+    loop: true,
     // loopPreventsSliding: true,
-    slidesPerView: "auto",
+    // slidesPerView: "auto",
+    slidesPerView: 4,
     spaceBetween: 40,
-    autoHeight: true,
-    centeredSlides: true,
-    rewind: true,
-    centerInsufficientSlides: true,
+    // autoHeight: true,
+    // centeredSlides: true,
+    // rewind: true,
+    // centerInsufficientSlides: true,
     cssMode: true,
     // // If we need pagination
     // pagination: {
@@ -16,8 +17,8 @@ const swiper = new Swiper(".swiper", {
     // },
     // Navigation arrows
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        nextEl: ".arrow_right",
+        prevEl: ".arrow_left"
     },
     // And if we need scrollbar
     scrollbar: {

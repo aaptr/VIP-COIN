@@ -538,7 +538,7 @@ footer {
   align-items: center;
   gap: 248px;
   width: 100%;
-  padding-bottom: 78px;
+  padding: 0 81px 78px;
   display: flex;
 }
 
@@ -558,11 +558,20 @@ footer {
 }
 
 .swiper {
+  justify-content: space-between;
+  align-items: center;
+  gap: 21px;
   width: 100%;
   display: flex;
 }
 
+.arrow_right {
+  transform: rotate(180deg);
+}
+
 .swiper-wrapper {
+  width: 100%;
+  max-width: 1120px;
   padding-top: 50px;
 }
 

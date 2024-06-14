@@ -1,4 +1,5 @@
-6045
+6047
+68/home/alex/Desktop/FRONT END/VIP-COIN/dist/slider_arrow.0e6e3920.svg1718391012720098579 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/src/img/media_icons/instagram-icon.svg1716746466403187696 0
 69/home/alex/Desktop/FRONT END/VIP-COIN/src/img/media_icons/ok-icon.svg1716746466403187696 0
 69/home/alex/Desktop/FRONT END/VIP-COIN/src/img/media_icons/vk-icon.svg1716746466403187696 0
@@ -682,7 +683,7 @@
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_apply_decorated_descriptor1716835264697323617 1
 81/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/nth-check/lib/esm/index.js.map1716835264130324598 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/NP.js1716835265022323055 0
-64/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.f68744d1.js.map1718045078021795153 0
+64/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.f68744d1.js.map1718050999596809829 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_get_prototype_of.mjs1716835265015323067 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/FK.js1716835264841323368 0
 101/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/convertor/create.js1716835267786318258 0
@@ -938,7 +939,7 @@
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/syntax/node/index-parse.js1716835267837318169 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/syntax/scope/selector.cjs1716835267724318365 0
 81/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_using_ctx.js1716835264680323647 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_S.dd83dd69.png1718045078012795133 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_S.dd83dd69.png1718050999560809667 0
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/source-map/parcel_sourcemap_node/Cargo.toml1716835265977321400 0
 105/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/syntax/function/var.cjs1716835267760318303 0
 78/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/ordered-binary/package.json1716835264072324699 0
@@ -1416,7 +1417,7 @@
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domutils/lib/index.js1716835267514318730 0
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/cache/index.d.ts1716835267632318525 0
 74/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/react-refresh/README.md1716835264046324744 0
-70/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-iphone10.cf120c3a.png1718045078011795131 0
+70/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-iphone10.cf120c3a.png1718050999591809807 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/cjs/_initializer_warning_helper.cjs1716835264482323989 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/cjs/_class_private_field_update.cjs1716835264430324079 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/definition-syntax/SyntaxError.js1716835264852323349 0
@@ -1511,7 +1512,7 @@
 78/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/cosmiconfig/dist/types.d.ts1716835264457324032 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/GU.js1716835264885323292 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_read_only_error.mjs1716835265025323050 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/vip-coin_USDT.ce74dd20.jpg1718045077988795081 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/vip-coin_USDT.ce74dd20.jpg1718050999539809573 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/canvas-blending.js1716835264551323870 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_super_prop_base.mjs1716835265027323046 0
 73/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/is-arrayish/.npmignore1716835264056324726 0
@@ -1667,7 +1668,7 @@
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/url-scroll-to-text-fragment.js1716835265117322890 0
 90/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/webcodecs.js1716835265138322854 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/StyleSheet.js1716835264850323353 0
-64/home/alex/Desktop/FRONT END/VIP-COIN/dist/gambling.2a7c53e5.svg1718045078011795131 0
+64/home/alex/Desktop/FRONT END/VIP-COIN/dist/gambling.2a7c53e5.svg1718050999590809802 0
 101/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/htmlnano/lib/modules/minifyConditionalComments.mjs1716835264611323766 0
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/Brackets.js1716835264698323616 0
 106/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_apply_decorated_descriptor/package.json1716835264698323616 0
@@ -1700,7 +1701,7 @@
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/compile.js1716835264310324287 0
 120/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Value.js1716835267798318237 0
 80/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_decorate.js1716835264628323737 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_X.d02969d6.png1718045078012795133 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_X.d02969d6.png1718050999591809807 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domhandler/lib1716835267569318635 1
 59/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/htmlnano1716835264640323716 1
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/syntax/node/Dimension.cjs1716835264484323986 0
@@ -1819,7 +1820,7 @@
 61/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/braces/lib1716835264281324337 1
 95/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_read_only_error/package.json1716835264912323245 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/definition-syntax1716835267869318113 1
-53/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.html1718045078016795142 0
+53/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.html1718050999591809807 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/WhiteSpace.js1716835264875323309 0
 79/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/attributes.js1716835264270324356 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_check_private_redeclaration/package.json1716835264737323548 0
@@ -2081,7 +2082,7 @@
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/pseudo-selectors/pseudos.d.ts.map1716835264482323989 0
 77/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/lib/replace/Atrule.js1716835264485323984 0
 94/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/core/test/fixtures/config/.parcelrc1716835267431318875 0
-67/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-dubai.2fcd957e.png1718045078011795131 0
+67/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-dubai.2fcd957e.png1718050999591809807 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/pseudo-selectors/subselects.js1716835264398324134 0
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/cosmiconfig/dist/ExplorerSync.js1716835264265324365 0
 85/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/attributes.d.ts.map1716835264423324091 0
@@ -2095,7 +2096,7 @@
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose1716835264825323396 1
 90/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/packager-svg/src/SVGPackager.js1716835266530320440 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/syntax/atrule/supports.js1716835267862318125 0
-63/home/alex/Desktop/FRONT END/VIP-COIN/dist/VIP-COIN.59712999.js1718045078016795142 0
+63/home/alex/Desktop/FRONT END/VIP-COIN/dist/VIP-COIN.59712999.js1718050999591809807 0
 95/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/svgo/bin1716835267545318677 1
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/referrer-policy.js1716835265056322996 0
 95/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/pseudo-selectors/index.js.map1716835264479323994 0
@@ -2117,7 +2118,7 @@
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/esm/index.d.ts1716835267672318456 0
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/packager-js/src/CJSOutputFormat.js1716835266599320320 0
 74/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/cjs/replace/atrule1716835264404324124 1
-66/home/alex/Desktop/FRONT END/VIP-COIN/dist/black_jack.b37e229e.svg1718045078011795131 0
+66/home/alex/Desktop/FRONT END/VIP-COIN/dist/black_jack.b37e229e.svg1718050999591809807 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/NC.js1716835265015323067 0
 60/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/type-fest1716835264122324612 1
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/sort.d.ts1716835264537323894 0
@@ -2268,7 +2269,7 @@
 81/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/cjs/restructure/index.cjs1716835264399324133 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/package-manager/src/installPackage.js1716835266800319971 0
 81/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/watcher-linux-x64-musl1716835264374324176 1
-63/home/alex/Desktop/FRONT END/VIP-COIN/dist/lottery.7ba9f7c0.svg1718045078011795131 0
+63/home/alex/Desktop/FRONT END/VIP-COIN/dist/lottery.7ba9f7c0.svg1718050999591809807 0
 72/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/parent-module/license1716835263892325010 0
 77/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/core/test/fixtures1716835267822318195 1
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/tokenizer/names.js1716835264819323406 0
@@ -2292,9 +2293,9 @@
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/HT.js1716835264893323278 0
 75/home/alex/Desktop/FRONT END/VIP-COIN/src/img/tesla_icons/tesla_model_S.png1717796976150136099 0
 105/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_class_static_private_field_destructure1716835264800323439 1
-65/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.75f14d4e.css.map1718045078020795151 0
+65/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.75f14d4e.css.map1718050999596809829 0
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/cosmiconfig/package.json1716835264342324231 0
-42/home/alex/Desktop/FRONT END/VIP-COIN/dist1718045078022795155 1
+42/home/alex/Desktop/FRONT END/VIP-COIN/dist1718050999597809833 1
 105/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/runtime-browser-hmr/lib/loaders/hmr-runtime.js1716835265916321506 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/MZ.js1716835265012323072 0
 111/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/core/test/fixtures/local-plugin-config-pkg/.parcelrc1716835267436318866 0
@@ -2334,14 +2335,14 @@
 92/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/node-gyp-build-optional-packages/index.js1716835264022324785 0
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/do-not-track.js1716835264788323460 0
 109/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/l10n/css.json1716835267555318659 0
-61/home/alex/Desktop/FRONT END/VIP-COIN/dist/craps.23aa1911.svg1718045078011795131 0
+61/home/alex/Desktop/FRONT END/VIP-COIN/dist/craps.23aa1911.svg1718050999591809807 0
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/webgpu.js1716835265139322852 0
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_non_iterable_spread.js1716835264652323695 0
 79/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/lib/clean/WhiteSpace.js1716835264609323770 0
 106/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/common1716835267791318249 1
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_await_async_generator1716835264731323558 1
 105/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/esm/encode.js.map1716835267642318508 0
-63/home/alex/Desktop/FRONT END/VIP-COIN/dist/ok-icon.f80a2f8c.svg1718045078011795131 0
+63/home/alex/Desktop/FRONT END/VIP-COIN/dist/ok-icon.f80a2f8c.svg1718050999590809802 0
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/source-map-js/lib/source-node.js1716835264082324681 0
 116/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/generated/encode-html.js.map1716835267636318518 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/parser/parse-selector.cjs1716835264620323750 0
@@ -2357,7 +2358,7 @@
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/data1716835267871318110 1
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/msgpackr/dist/index-no-eval.cjs1716835264020324789 0
 106/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_class_check_private_static_access.mjs1716835264985323119 0
-67/home/alex/Desktop/FRONT END/VIP-COIN/dist/VIP-COIN.59712999.js.map1718045078020795151 0
+67/home/alex/Desktop/FRONT END/VIP-COIN/dist/VIP-COIN.59712999.js.map1718050999596809829 0
 86/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/esm/compile.d.ts.map1716835264437324067 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/htmlnano/docs/versioned_docs/version-2.0.0/030-config.md1716835264549323873 0
 110/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_class_private_field_loose_base/package.json1716835264781323472 0
@@ -2382,7 +2383,7 @@
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domutils/lib/esm/manipulation.js1716835267527318708 0
 97/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/electron-to-chromium/full-chromium-versions.js1716835264140324581 0
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_iterable_to_array_limit_loose.mjs1716835265021323057 0
-61/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.75f14d4e.css1718045078016795142 0
+61/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.75f14d4e.css1718050999591809807 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib1716835267726318362 1
 85/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/atrule/nest.js1716835264822323401 0
 123/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Rule.js1716835267798318237 0
@@ -2391,7 +2392,7 @@
 69/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/plugin/src1716835266106321176 1
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domutils/lib/traversal.d.ts1716835267657318482 0
 127/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/mdn-data/api/inheritance.schema.json1716835267645318503 0
-61/home/alex/Desktop/FRONT END/VIP-COIN/dist/slots.4040123a.svg1718045078011795131 0
+61/home/alex/Desktop/FRONT END/VIP-COIN/dist/slots.4040123a.svg1718050999550809622 0
 86/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/alt-an.js1716835264383324161 0
 92/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/text-stroke.js1716835265095322928 0
 118/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/generated/encode-html.d.ts.map1716835267620318546 0
@@ -2432,13 +2433,13 @@
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/esm/attributes.js.map1716835264434324072 0
 63/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/chalk/source1716835264266324363 1
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/weak-lru-cache/README.md1716835263937324932 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_3.49a8f53a.png1718045077988795081 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_3.49a8f53a.png1718050999560809667 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domutils/lib/querying.js1716835267532318699 0
 112/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/generated/encode-html.js1716835267544318678 0
 78/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_update.js1716835264677323652 0
 69/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/js-tokens/index.js1716835264043324749 0
 79/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/workers/lib/types.js1716835265054322999 0
-68/home/alex/Desktop/FRONT END/VIP-COIN/dist/fortune_reel.13478b29.svg1718045078011795131 0
+68/home/alex/Desktop/FRONT END/VIP-COIN/dist/fortune_reel.13478b29.svg1718050999555809645 0
 112/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/definition-syntax/generate.cjs1716835267657318482 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/type-fest/ts41/pascal-case.d.ts1716835264276324346 0
 110/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_class_extract_field_descriptor/package.json1716835264763323503 0
@@ -2456,7 +2457,7 @@
 92/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/input-range.js1716835264917323237 0
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/is-arrayish/package.json1716835264049324738 0
 122/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Comment.js1716835267603318576 0
-62/home/alex/Desktop/FRONT END/VIP-COIN/dist/casino.646e7d50.svg1718045078011795131 0
+62/home/alex/Desktop/FRONT END/VIP-COIN/dist/casino.646e7d50.svg1718050999550809622 0
 100/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/PseudoElementSelector.js1716835264838323373 0
 127/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node/Selector.js1716835267800318233 0
 72/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/browserslist/parse.js1716835264297324309 0
@@ -2478,7 +2479,7 @@
 80/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/lexer/search.cjs1716835264635323725 0
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/LICENSE1716835267480318790 0
 97/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_class_extract_field_descriptor1716835264763323503 1
-60/home/alex/Desktop/FRONT END/VIP-COIN/dist/bets.f952424b.svg1718045078011795131 0
+60/home/alex/Desktop/FRONT END/VIP-COIN/dist/bets.f952424b.svg1718050999591809807 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/transformer-babel1716835265705321871 1
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/KN.js1716835264940323197 0
 78/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/lightningcss/node/index.mjs1716835264299324306 0
@@ -2521,7 +2522,7 @@
 100/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_class_static_private_field_update1716835264809323423 1
 100/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_initializer_define_property.mjs1716835265018323062 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/syntax1716835267686318431 1
-64/home/alex/Desktop/FRONT END/VIP-COIN/dist/baccarat.5efefb1c.svg1718045078011795131 0
+64/home/alex/Desktop/FRONT END/VIP-COIN/dist/baccarat.5efefb1c.svg1718050999591809807 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/src/_define_property.mjs1716835265013323070 0
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/SelectorList.js1716835264845323361 0
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/syntax/node/Declaration.cjs1716835264479323994 0
@@ -2533,7 +2534,7 @@
 114/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/core/test/fixtures/local-plugin-config-pkg/node_modules1716835267625318537 1
 101/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/htmlnano/lib/modules/minifyConditionalComments.cjs1716835264268324359 0
 73/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/lightningcss/README.md1716835264291324320 0
-73/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-airpods-pro.f0324db9.png1718045078012795133 0
+73/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-airpods-pro.f0324db9.png1718050999591809807 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/transformer-raw/lib/RawTransformer.js1716835265174322791 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/cjs/_interop_require_default.cjs1716835264484323986 0
 79/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/utils/names.cjs1716835264609323770 0
@@ -2564,7 +2565,7 @@
 94/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/tabindex-attr.js1716835265090322937 0
 104/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/transformer-html/node_modules/srcset/index.js1716835267528318706 0
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/pseudo-selectors/index.js1716835264371324181 0
-73/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-apple-watch.99ed2c15.png1718045077988795081 0
+73/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-apple-watch.99ed2c15.png1718050999560809667 0
 55/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso1716835264612323764 1
 131/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/csso/lib/restructure/3-disjoinRuleset.js1716835267585318607 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/form-validation.js1716835264861323334 0
@@ -2584,7 +2585,7 @@
 61/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/picocolors1716835263925324953 1
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/posthtml-parser/dist/location-tracker.d.ts1716835264123324610 0
 65/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/logger1716835267047319542 1
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/telegram-icon.78ff37f5.svg1718045078011795131 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/telegram-icon.78ff37f5.svg1718050999550809622 0
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/currentcolor.js1716835264766323498 0
 81/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_ts_values.js1716835264673323659 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_possible_constructor_return/package.json1716835264910323249 0
@@ -2610,7 +2611,7 @@
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/x-doc-messaging.js1716835265146322840 0
 86/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/type-fest/source/tsconfig-json.d.ts1716835264352324214 0
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/svgo/plugins/removeElementsByAttr.js1716835264609323770 0
-60/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.f68744d1.js1718045078016795142 0
+60/home/alex/Desktop/FRONT END/VIP-COIN/dist/index.f68744d1.js1718050999591809807 0
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mtest6.c1716835264628323737 0
 97/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/decode.js1716835267529318704 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/esm/encode.d.ts.map1716835267640318511 0
@@ -2808,7 +2809,7 @@
 102/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/getboundingclientrect.js1716835264871323316 0
 79/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/node-releases/data/processed1716835263952324906 1
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_sliced_to_array_loose1716835264920323231 1
-57/home/alex/Desktop/FRONT END/VIP-COIN/src/sass/style.scss1718050999327808619 0
+57/home/alex/Desktop/FRONT END/VIP-COIN/src/sass/style.scss1718391928051395110 0
 90/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/mdn-data/package.json1716835267535318694 0
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_ts_param1716835264948323183 1
 104/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/domutils/lib/esm/index.js.map1716835267570318633 0
@@ -2900,7 +2901,7 @@
 103/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/dom-serializer/node_modules/entities/lib/decode.d.ts1716835267528318706 0
 86/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/msgpackr/dist/index-no-eval.cjs.map1716835264427324084 0
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/msgpackr-extract/src/extract.cpp1716835263972324871 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_Y.7a7a246e.png1718045078012795133 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/tesla_model_Y.7a7a246e.png1718050999591809807 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/dom-serializer/README.md1716835267548318671 0
 97/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/dom-serializer/lib/esm1716835267554318661 1
 122/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/package-manager/test/fixtures/has-foo/node_modules/foo/index.js1716835266794319982 0
@@ -2945,7 +2946,7 @@
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/dist/unpacker/region.js1716835265057322994 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/lib/syntax/node/Url.js1716835264865323327 0
 92/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@babel/highlight/node_modules/ansi-styles1716835267621318544 1
-63/home/alex/Desktop/FRONT END/VIP-COIN/dist/vk-icon.c19b13eb.svg1718045078012795133 0
+63/home/alex/Desktop/FRONT END/VIP-COIN/dist/vk-icon.c19b13eb.svg1718050999590809802 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/AR.js1716835264426324086 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/core-linux-x64-musl/package.json1716835264476324000 0
 107/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_create_for_of_iterator_helper_loose.js1716835264626323740 0
@@ -2976,14 +2977,14 @@
 70/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/fill-range/index.js1716835264093324662 0
 99/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css-grid-animation.js1716835264681323645 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/utils/src/blob.js1716835265072322968 0
-64/home/alex/Desktop/FRONT END/VIP-COIN/dist/roulette.e6810450.svg1718045078011795131 0
+64/home/alex/Desktop/FRONT END/VIP-COIN/dist/roulette.e6810450.svg1718050999556809649 0
 92/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css3-colors.js1716835264760323508 0
 80/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/utils/src/debounce.js1716835265076322961 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/syntax/config/parser.cjs1716835264627323738 0
 50/home/alex/Desktop/FRONT END/VIP-COIN/node_modules1716836538300230166 1
 98/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css-logical-props.js1716835264696323619 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/cosmiconfig/dist/merge.js1716835264315324278 0
-52/home/alex/Desktop/FRONT END/VIP-COIN/src/index.html1718047519138660462 0
+52/home/alex/Desktop/FRONT END/VIP-COIN/src/index.html1718391568327346454 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/cjs/_set.cjs1716835264513323935 0
 90/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/generator/token-before.cjs1716835264652323695 0
 90/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-tree/cjs/syntax/node/Percentage.cjs1716835264628323737 0
@@ -3386,7 +3387,7 @@
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/definition-syntax/parse.js1716835267852318143 0
 72/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/browserslist/index.js1716835264266324363 0
 73/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/counter/README.md1716835264820323404 0
-61/home/alex/Desktop/FRONT END/VIP-COIN/dist/poker.f75f4599.svg1718045078011795131 0
+61/home/alex/Desktop/FRONT END/VIP-COIN/dist/poker.f75f4599.svg1718050999555809645 0
 93/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/markdown-ansi/lib/markdown-ansi.js1716835266971319674 0
 70/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/_/_get1716835264856323342 1
 78/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/semver/ranges/intersects.js1716835264046324744 0
@@ -3522,7 +3523,7 @@
 103/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css-anchor-positioning.js1716835264628323737 0
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/msgpackr/dist/unpack-no-eval.cjs1716835264123324610 0
 103/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/node_modules/entities/lib/encode.d.ts.map1716835267639318513 0
-68/home/alex/Desktop/FRONT END/VIP-COIN/dist/youtube-icon.77cdbad0.svg1718045078011795131 0
+68/home/alex/Desktop/FRONT END/VIP-COIN/dist/youtube-icon.77cdbad0.svg1718050999550809622 0
 101/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/syntax/node/Url.cjs1716835267747318325 0
 82/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/regions/SK.js1716835265076322961 0
 85/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/menu.js1716835264977323133 0
@@ -3629,7 +3630,7 @@
 101/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/wasm-reference-types.js1716835265134322861 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/msgpackr/rollup.config.js1716835264331324251 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/lib/restructure/1-mergeAtrule.js1716835264452324041 0
-69/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-macbook.b88e417b.png1718045077988795081 0
+69/home/alex/Desktop/FRONT END/VIP-COIN/dist/prize-macbook.b88e417b.png1718050999560809667 0
 88/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@swc/helpers/esm/_get_prototype_of.js1716835264635323725 0
 76/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/package.json1716835265154322826 0
 80/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/lmdb/dependencies/lz4/lib/dll1716835264669323666 1
@@ -3783,7 +3784,7 @@
 85/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/utils/test/input/sourcemap1716835265193322759 1
 104/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css-hanging-punctuation.js1716835264683323641 0
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/iframe-seamless.js1716835264898323269 0
-71/home/alex/Desktop/FRONT END/VIP-COIN/dist/user-login-icon.d7032e58.svg1718045078011795131 0
+71/home/alex/Desktop/FRONT END/VIP-COIN/dist/user-login-icon.d7032e58.svg1718050999550809622 0
 95/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/rel-noreferrer.js1716835265058322992 0
 112/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/mdn-data/api/index.js1716835267598318584 0
 105/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/lib/syntax/node/Brackets.js1716835267776318275 0
@@ -5192,7 +5193,7 @@
 68/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data1716835264827323392 1
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/csso/node_modules/css-tree/cjs/syntax/node/StyleSheet.cjs1716835267731318353 0
 86/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-svgo/package.json1716835266794319982 0
-52/home/alex/Desktop/FRONT END/VIP-COIN/src/scripts.js1718050747647617043 0
+52/home/alex/Desktop/FRONT END/VIP-COIN/src/scripts.js1718391605919450357 0
 98/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/loading-lazy-attr.js1716835264953323174 0
 125/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/source-map/parcel_sourcemap_node/artifacts/index.darwin-arm64.node1716835265931321480 0
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/css-select/lib/attributes.js.map1716835264428324083 0
@@ -5290,6 +5291,7 @@
 72/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/profiler/test1716835265757321781 1
 96/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/caniuse-lite/data/features/css-unset-value.js1716835264751323524 0
 98/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/transformer-html/lib/HTMLTransformer.js1716835265649321968 0
+62/home/alex/Desktop/FRONT END/VIP-COIN/src/img/slider_arrow.svg1718390987103060421 0
 87/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/profiler/test/Tracer.test.js1716835265757321781 0
 71/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/profiler/src1716835265757321781 1
 83/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/nth-check/lib/esm/parse.d.ts.map1716835264149324565 0
@@ -6011,7 +6013,7 @@
 75/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@mischnic/json-sourcemap1716835267427318882 1
 91/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/binary-extensions/binary-extensions.json1716835264251324389 0
 80/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@mischnic/json-sourcemap/dist1716835267432318873 1
-70/home/alex/Desktop/FRONT END/VIP-COIN/dist/instagram-icon.7e208b6e.svg1718045078011795131 0
+70/home/alex/Desktop/FRONT END/VIP-COIN/dist/instagram-icon.7e208b6e.svg1718050999590809802 0
 89/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@mischnic/json-sourcemap/dist/index.js1716835267432318873 0
 94/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@mischnic/json-sourcemap/dist/index.js.flow1716835267432318873 0
 108/home/alex/Desktop/FRONT END/VIP-COIN/node_modules/@parcel/optimizer-htmlnano/node_modules/svgo/package.json1716835267764318296 0
