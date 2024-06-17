@@ -1,5 +1,9 @@
 @import './mixins.scss';
 
+$red: #FF3333;
+$black: #000000;
+$whithe: #FFFFFF;
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,7 @@
 header {
     padding: 20px 0;
     font-size: 17px;
-    background-color: #000000;
+    background-color: $black;
 }
 
 .h_f_container {
@@ -24,7 +28,7 @@ footer {
     padding: 20px 0;
     font-family: 'Futura PT', sans-serif;
     font-size: 17px;
-    background-color: #000000;
+    background-color: $black;
 }
 
 .rhomb_wrapper {
@@ -50,29 +54,34 @@ footer {
     height: 86px;
 
     p {
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 14px;
         transform: rotate(-45deg);
     }
 }
 
 .h_f_navigation {
+    font-family: 'Futura PT', sans-serif;
     max-width: 650px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
 
-.nav_link {
-    font-size: 17px;
-    line-height: 130%;
-    text-decoration: none;
-    color: #FFFFFF;
+    .nav_link {
+        font-size: 17px;
+        line-height: 130%;
+        text-decoration: none;
+        color: $whithe;
+    }
+
+    .nav_link:hover {
+        text-shadow: 1px 1px 2px $red, 0 0 1em $red, 0 0 0.2em $red
+    }
 }
 
 .nav_link:visited {
-    color: #FFFFFF;
+    color: $whithe;
 }
 
 .media_icons {
@@ -81,10 +90,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    a {
+        transition: all 0.3s linear;
+    }
+
+    a:hover {
+        transform: scale(1.5);
+    }
 }
 
 .login_block {
-    color: #FF3333;
+    color: $red;
     font-size: 17px;
     max-width: 81px;
     width: 100%;
@@ -99,11 +116,11 @@ footer {
 }
 
 .login_link:visited {
-    color: #FF3333;
+    color: $red;
 }
 
 .new_currency {
-    background-color: #000000;
+    background-color: $black;
 }
 
 .new_currency_container {
@@ -130,7 +147,7 @@ footer {
     width: 100%;
     margin: auto;
     margin-top: 68px;
-    color: #FFFFFF;
+    color: $whithe;
     font-size: 110px;
     display: flex;
     flex-direction: column;
@@ -152,7 +169,7 @@ footer {
     top: 10px;
 
     p {
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 20px;
         transform: rotate(-45deg);
     }
@@ -173,7 +190,7 @@ footer {
     font-size: 24px;
     line-height: 130%;
     font-weight: 400;
-    color: #FFFFFF;
+    color: $whithe;
     max-width: 300px;
     width: 100%;
 }
@@ -181,19 +198,34 @@ footer {
 .register_button {
     width: 244px;
     height: 70px;
-    background-color: #FF3333;
+    background-color: $red;
     border: none;
-    color: #FFFFFF;
+    color: $whithe;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Futura PT', sans-serif;
     font-size: 24px;
     margin: auto;
+    animation: pulse 2.5s linear infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
 }
 
 .games__section {
-    background-color: #FFFFFF;
+    background-color: $whithe;
     overflow: hidden;
 }
 
@@ -237,7 +269,7 @@ footer {
 }
 
 .targets {
-    background-color: #000000;
+    background-color: $black;
 }
 
 .targets__container {
@@ -255,7 +287,7 @@ footer {
     @include title;
     font-size: 100px;
     text-align: center;
-    color: #FFFFFF;
+    color: $whithe;
     z-index: 1;
 }
 
@@ -272,7 +304,7 @@ footer {
 
 .targets__text {
     font-family: 'Futura PT', sans-serif;
-    color: #FFFFFF;
+    color: $whithe;
     font-size: 22px;
     font-weight: 400;
     line-height: 130%;
@@ -296,7 +328,7 @@ footer {
     max-width: 320px;
     width: 100%;
     height: 292px;
-    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
     box-shadow: inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
     position: relative;
@@ -310,7 +342,7 @@ footer {
     transform: translate(-50%, 30px);
 
     p {
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 40px;
         line-height: 130%;
         transform: rotate(-45deg);
@@ -319,7 +351,7 @@ footer {
 
 .targets__block_text {
     font-family: 'Futura PT', sans-serif;
-    color: #FFFFFF;
+    color: $whithe;
     font-size: 22px;
     font-weight: 400;
     line-height: 130%;
@@ -331,7 +363,7 @@ footer {
 }
 
 .targets__article {
-    background-color: #000000;
+    background-color: $black;
     z-index: 1;
     position: relative;
 
@@ -342,7 +374,7 @@ footer {
         padding-top: 300px;
         padding-bottom: 300px;
         font-family: 'Futura PT', sans-serif;
-        color: #FFFFFF;
+        color: $whithe;
         text-align: center;
         font-size: 50px;
         font-weight: 400;
@@ -351,7 +383,7 @@ footer {
         span {
             text-decoration: underline;
             text-decoration-thickness: 2px;
-            text-decoration-color: #FF3333;
+            text-decoration-color: $red;
             text-underline-offset: 2px;
         }
     }
@@ -362,7 +394,7 @@ footer {
     position: absolute;
     top: 26.5%;
     left: 20%;
-    border: 1px solid #FF3333;
+    border: 1px solid $red;
     border-radius: 50% 50%;
     transform: rotate(16deg);
     width: 665px;
@@ -371,7 +403,7 @@ footer {
 }
 
 .vip-usdt {
-    background-color: #FFFFFF;
+    background-color: $whithe;
     font-family: 'Futura PT', sans-serif;
     font-weight: 300;
     line-height: 130%;
@@ -413,7 +445,7 @@ footer {
 }
 
 .staking {
-    background-color: #000000;
+    background-color: $black;
     padding-top: 31px;
     padding-bottom: 100px;
 }
@@ -435,7 +467,7 @@ footer {
     top: 30%;
     width: 638.12px;
     height: 266.7px;
-    border: 0.5px solid #FF3333;
+    border: 0.5px solid $red;
     border-radius: 50% 50%;
     transform: rotate(15.78deg);
     z-index: 1;
@@ -443,14 +475,14 @@ footer {
 
 .staking__title {
     @include title;
-    color: #FFFFFF;
+    color: $whithe;
     font-size: 110px;
     position: relative;
 }
 
 .staking__title::before {
     content: 'Как добыть монеты до выхода на биржу?';
-    color: #FFFFFF;
+    color: $whithe;
     font-family: 'Futura PT', sans-serif;
     font-size: 24px;
     line-height: 130%;
@@ -464,7 +496,7 @@ footer {
 
 .staking__title::after {
     content: 'начисление монет VIP-coin по заданному алгоритму при депозите в USD';
-    color: #FFFFFF;
+    color: $whithe;
     font-family: 'Futura PT', sans-serif;
     font-size: 24px;
     line-height: 130%;
@@ -491,7 +523,7 @@ footer {
 
 .staking__chart-block {
     padding: 0 19px;
-    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
     max-width: 319px;
@@ -504,7 +536,7 @@ footer {
     align-items: center;
 
     p {
-        color: #FFFFFF;
+        color: $whithe;
         font-family: 'Futura PT', sans-serif;
         text-align: center;
     }
@@ -523,8 +555,12 @@ footer {
     }
 }
 
+.staking__chart-block:hover {
+    box-shadow: -5px -5px 20px $red, inset 30px 30px 36px rgba(21, 21, 21, 0.5);
+}
+
 .packets {
-    background-color: #FFFFFF;
+    background-color: $whithe;
 }
 
 .packets__wrapper {
@@ -557,7 +593,6 @@ footer {
 }
 
 .swiper {
-    // max-width: 1130px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -572,19 +607,14 @@ footer {
 .swiper-wrapper {
     max-width: 1120px;
     width: 100%;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     padding-top: 50px;
-    // gap: 40px;
-    // padding: 50px 80px;
 }
 
 .swiper-slide {
     max-width: 250px;
     width: 100%;
     padding: 70px 0 30px 0;
-    border: 2px solid #FF3333;
+    border: 2px solid $red;
     border-radius: 8px;
     font-family: 'Futura PT', sans-serif;
     font-weight: 400;
@@ -593,7 +623,7 @@ footer {
     position: relative;
 
     .slide__packet-cost {
-        color: #FF3333;
+        color: $red;
         font-weight: 600;
         font-size: 50px;
         margin-bottom: 50px;
@@ -623,7 +653,7 @@ footer {
         z-index: 1;
 
         p {
-            color: #FFFFFF;
+            color: $whithe;
             font-size: 24px;
             transform: rotate(-45deg);
         }
@@ -631,7 +661,7 @@ footer {
 }
 
 .referal {
-    background-color: #000000;
+    background-color: $black;
 }
 
 .referal__text-block {
@@ -646,7 +676,7 @@ footer {
 
     p {
         @include title;
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 110px;
         text-wrap: nowrap;
         left: 9px;
@@ -661,7 +691,7 @@ footer {
     height: 266.7px;
     left: 23%;
     top: 31%;
-    border: 0.5px solid #FF3333;
+    border: 0.5px solid $red;
     border-radius: 50% 50%;
     transform: rotate(15.78deg);
 }
@@ -670,7 +700,7 @@ footer {
     content: 'стейкинг взаимный, потому что вы получаете проценты от депозитов ваших партнеров';
     position: absolute;
     font-family: 'Futura PT', sans-serif;
-    color: #FFFFFF;
+    color: $whithe;
     font-weight: 400;
     font-size: 24px;
     line-height: 130%;
@@ -689,12 +719,12 @@ footer {
     padding-bottom: 100px;
     font-family: 'Futura PT', sans-serif;
     line-height: 130%;
-    color: #FFFFFF;
+    color: $whithe;
 }
 
 .referal__chart-block {
     box-sizing: border-box;
-    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+    background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
     box-shadow: -5px -5px 20px rgba(255, 255, 255, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
     padding-left: 30px;
@@ -779,21 +809,21 @@ footer {
     margin-top: 30px;
 
     p {
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 24px;
         transform: rotate(-45deg);
     }
 }
 
 .promo {
-    background-color: #FFFFFF;
+    background-color: $whithe;
 }
 
 .promo__title {
     @include title;
     max-width: 1920px;
     width: 100%;
-    color: #FF3333;
+    color: $red;
     font-size: 400;
     display: flex;
     justify-content: space-between;
@@ -849,7 +879,7 @@ footer {
 
     p {
         font-family: 'Futura PT', sans-serif;
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 50px;
         font-weight: 600;
         line-height: 130%;
@@ -860,7 +890,7 @@ footer {
 .promo__fast-start-container {
     max-width: 1370px;
     width: 100%;
-    border: 2px solid #FF3333;
+    border: 2px solid $red;
     border-radius: 8px;
     padding: 100px 115px;
     margin: auto;
@@ -909,7 +939,7 @@ footer {
 
     p {
         font-family: 'Futura PT', sans-serif;
-        color: #FFFFFF;
+        color: $whithe;
         font-size: 30px;
         font-weight: 600;
         line-height: 130%;
@@ -939,7 +969,7 @@ footer {
 .promo__prize-container {
     max-width: 1370px;
     width: 100%;
-    border: 2px solid #FF3333;
+    border: 2px solid $red;
     border-radius: 8px;
     padding: 100px 115px;
     margin: auto;
@@ -950,7 +980,6 @@ footer {
         font-weight: 600;
         line-height: 120%;
         padding-top: 50px;
-        // padding-bottom: 20px;
     }
 
     .prize_text {
@@ -962,7 +991,7 @@ footer {
         width: 100%;
 
         span {
-            color: #FF3333;
+            color: $red;
         }
     }
 }
@@ -1016,7 +1045,7 @@ footer {
         gap: 10px;
 
         p:first-child {
-            color: #FF3333;
+            color: $red;
         }
 
         p:last-child {
@@ -1045,7 +1074,7 @@ footer {
 }
 
 .roadmap {
-    background-color: #000000;
+    background-color: $black;
 }
 
 .roadmap__container {
@@ -1062,14 +1091,14 @@ footer {
 
         h2 {
             @include title;
-            color: #FFFFFF;
+            color: $whithe;
             font-size: 110px;
             top: -33px;
             left: 391px;
         }
 
         p {
-            color: #FFFFFF;
+            color: $whithe;
             font-family: 'Futura PT', sans-serif;
             font-size: 24px;
             font-weight: 400;
@@ -1092,11 +1121,11 @@ footer {
 
         .roadmap__grid-block {
             box-sizing: border-box;
-            background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), #000000;
+            background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
             box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
             border-radius: 8px;
             padding: 20px;
-            color: #FFFFFF;
+            color: $whithe;
             font-family: 'Futura PT', sans-serif;
             font-weight: 400;
             line-height: 130%;
@@ -1116,7 +1145,7 @@ footer {
 }
 
 .join {
-    background-color: #000000;
+    background-color: $black;
 }
 
 .join__container {
@@ -1136,7 +1165,7 @@ footer {
 
         h2 {
             @include title;
-            color: #FFFFFF;
+            color: $whithe;
             font-size: 110px;
         }
 
@@ -1157,7 +1186,7 @@ footer {
             transform: translateY(-50%);
 
             p {
-                color: #FFFFFF;
+                color: $whithe;
                 font-size: 14px;
                 transform: rotate(-45deg);
             }
@@ -1172,7 +1201,7 @@ footer {
 
     .join__link {
         font-family: 'Futura PT', sans-serif;
-        color: #FF3333;
+        color: $red;
         font-size: 20px;
         font-weight: 400;
         line-height: 180%;
@@ -1181,7 +1210,7 @@ footer {
     }
 
     .join__link:visited {
-        color: #FF3333;
+        color: $red;
     }
 }
 
