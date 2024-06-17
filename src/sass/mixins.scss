@@ -1,0 +1,21 @@
+@mixin rhomb_gradient {
+    transform: rotate(45deg);
+    background: linear-gradient(#FF3333, #FF333300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rhomb {
+    transform: rotate(45deg);
+    background: #FF3333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin title {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 130%;
+}
