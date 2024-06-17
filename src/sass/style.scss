@@ -22,6 +22,30 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
+
+    @media (max-width: 1200px) {
+        margin: 0 5px;
+        padding: 0 5px;
+        justify-content: center;
+    }
+
+    @media (max-width: 992px) {
+        gap: 30px;
+    }
+}
+
+.bugrer__menu {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 70px;
+    top: 0px;
+    visibility: hidden;
+
+    @media (max-width: 992px) {
+        visibility: visible;
+    }
 }
 
 footer {
@@ -53,10 +77,28 @@ footer {
     width: 86px;
     height: 86px;
 
+    @media (max-width: 1200px) {
+        width: 68px;
+        height: 68px;
+    }
+
+    @media (max-width: 992px) {
+        width: 50px;
+        height: 50px;
+    }
+
     p {
         color: $whithe;
         font-size: 14px;
         transform: rotate(-45deg);
+
+        @media (max-width: 1200px) {
+            font-size: 9px;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 8px;
+        }
     }
 }
 
@@ -68,11 +110,20 @@ footer {
     justify-content: space-between;
     align-items: center;
 
+    @media (max-width: 992px) {
+        display: none;
+        justify-content: center;
+    }
+
     .nav_link {
         font-size: 17px;
         line-height: 130%;
         text-decoration: none;
         color: $whithe;
+
+        @media (max-width: 1200px) {
+            font-size: 14px;
+        }
     }
 
     .nav_link:hover {
@@ -129,6 +180,11 @@ footer {
     position: relative;
     padding-top: 36px;
     padding-bottom: 210px;
+    overflow: hidden;
+
+    @media (max-width: 1200px) {
+        padding-bottom: 120px;
+    }
 }
 
 .new_currency_ellips {
@@ -137,7 +193,7 @@ footer {
     height: 516px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
     position: absolute;
-    left: 120px;
+    left: 6%;
     top: 16px;
 }
 
@@ -164,6 +220,17 @@ footer {
 .new_currency_rhomb_wrapper {
     width: 141px;
     height: 141px;
+
+    @media (max-width: 1200px) {
+        width: 110px;
+        height: 110px;
+    }
+
+    @media (max-width: 992px) {
+        width: 90px;
+        height: 90px;
+    }
+
     position: absolute;
     right: 58px;
     top: 10px;
@@ -172,6 +239,14 @@ footer {
         color: $whithe;
         font-size: 20px;
         transform: rotate(-45deg);
+
+        @media (max-width: 1200px) {
+            font-size: 16px;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 14px;
+        }
     }
 }
 
@@ -188,6 +263,11 @@ footer {
 .new_currency__text {
     font-family: 'Futura PT', sans-serif;
     font-size: 24px;
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+    }
+
     line-height: 130%;
     font-weight: 400;
     color: $whithe;
@@ -208,6 +288,18 @@ footer {
     font-size: 24px;
     margin: auto;
     animation: pulse 2.5s linear infinite;
+
+    @media (max-width: 1200px) {
+        width: 200px;
+        height: 65px;
+        font-size: 20px;
+    }
+
+    @media (max-width: 992px) {
+        width: 180px;
+        height: 59px;
+        font-size: 18px;
+    }
 }
 
 @keyframes pulse {
@@ -236,6 +328,12 @@ footer {
     justify-content: center;
     gap: 98px;
     row-gap: 20px;
+
+    @media (max-width: 1200px) {
+        padding: 10px;
+        gap: 60px;
+        row-gap: 10px;
+    }
 }
 
 .games_line1 {
@@ -281,6 +379,10 @@ footer {
     position: relative;
     padding: 100px 0;
     overflow: hidden;
+
+    @media (max-width: 992px) {
+        padding: 50px 0;
+    }
 }
 
 .targets__title {
@@ -322,12 +424,17 @@ footer {
     gap: 30px;
     z-index: 1;
     margin-top: 60px;
+
+    @media (max-width: 1200px) {
+        margin: 0 5px;
+        gap: 5px;
+    }
 }
 
 .targets__block {
     max-width: 320px;
     width: 100%;
-    height: 292px;
+    min-height: 292px;
     background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
     box-shadow: inset 30px 30px 36px rgba(21, 21, 21, 0.5);
     border-radius: 8px;
@@ -341,11 +448,20 @@ footer {
     left: 50%;
     transform: translate(-50%, 30px);
 
+    @media (max-width: 992px) {
+        width: 69px;
+        height: 69px;
+    }
+
     p {
         color: $whithe;
         font-size: 40px;
         line-height: 130%;
         transform: rotate(-45deg);
+
+        @media (max-width: 992px) {
+            font-size: 30px;
+        }
     }
 }
 
@@ -360,6 +476,10 @@ footer {
     top: 48%;
     margin-left: 20px;
     margin-right: 20px;
+
+    @media (max-width: 992px) {
+        font-size: 18px;
+    }
 }
 
 .targets__article {
@@ -385,6 +505,15 @@ footer {
             text-decoration-thickness: 2px;
             text-decoration-color: $red;
             text-underline-offset: 2px;
+        }
+
+        @media (max-width: 1200px) {
+            padding: 200px 70px;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 40px;
+            padding: 150px 60px;
         }
     }
 }
@@ -492,6 +621,10 @@ footer {
     position: absolute;
     top: -60%;
     left: 89px;
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+    }
 }
 
 .staking__title::after {
@@ -507,6 +640,11 @@ footer {
     bottom: -20%;
     right: -2%;
     transform: translate(50%, 100%);
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+        right: 3%;
+    }
 }
 
 .staking__chart {
@@ -514,6 +652,7 @@ footer {
     width: 100%;
     margin: auto;
     margin-top: 31px;
+    padding: 0 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -546,12 +685,20 @@ footer {
         line-height: 120%;
         font-weight: 600;
         width: 70%;
+
+        @media (max-width: 1200px) {
+            font-size: 20px;
+        }
     }
 
     p:last-child {
         font-size: 20px;
         line-height: 130%;
         font-weight: 400;
+
+        @media (max-width: 1200px) {
+            font-size: 18px;
+        }
     }
 }
 
@@ -567,6 +714,18 @@ footer {
     max-width: 1920px;
     width: 100%;
     padding: 100px 310px;
+
+    @media (max-width: 1824px) {
+        padding: 90px 200px;
+    }
+
+    @media (max-width: 1440px) {
+        padding: 90px 120px;
+    }
+
+    @media (max-width: 1200px) {
+        padding: 80px 80px;
+    }
 }
 
 .packets__text-block {
@@ -577,6 +736,14 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 248px;
+
+    @media (max-width: 1440px) {
+        gap: 100px;
+    }
+
+    @media (max-width: 1200px) {
+        gap: 50px;
+    }
 
     p:first-child {
         @include title;
@@ -589,6 +756,14 @@ footer {
         font-weight: 400;
         line-height: 130%;
         transform: translateY(50%);
+
+        @media (max-width: 1440px) {
+            font-size: 22px;
+        }
+
+        @media (max-width: 1200px) {
+            // font-size: 20px;
+        }
     }
 }
 
@@ -674,6 +849,10 @@ footer {
     padding: 171px 0 202px 0;
     position: relative;
 
+    @media (max-width: 1200px) {
+        padding: 100px 0 180px 0;
+    }
+
     p {
         @include title;
         color: $whithe;
@@ -694,6 +873,13 @@ footer {
     border: 0.5px solid $red;
     border-radius: 50% 50%;
     transform: rotate(15.78deg);
+
+    @media (max-width: 1200px) {
+        width: 574px;
+        height: 240px;
+        top: 19%;
+        left: 17%;
+    }
 }
 
 .referal__text-block::after {
@@ -708,6 +894,16 @@ footer {
     width: 100%;
     bottom: 10%;
     right: -14%;
+
+    @media (max-width: 1440px) {
+        right: -6%;
+        font-size: 23px;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 20px;
+        right: 0%;
+    }
 }
 
 .referal__chart {
@@ -716,10 +912,15 @@ footer {
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
+    padding: 0 5px 100px 5px;
     font-family: 'Futura PT', sans-serif;
     line-height: 130%;
     color: $whithe;
+
+    @media (max-width: 1200px) {
+        gap: 10px;
+    }
 }
 
 .referal__chart-block {
@@ -752,6 +953,10 @@ footer {
     font-size: 24px;
     font-weight: 400;
     width: 100%;
+
+    @media (max-width: 1200px) {
+        font-size: 22px;
+    }
 }
 
 .referal__chart-text2 {
@@ -759,11 +964,19 @@ footer {
     font-weight: 400;
     width: 100%;
     padding-bottom: 30px;
+
+    @media (max-width: 1200px) {
+        font-size: 24px;
+    }
 }
 
 .chart_small_text {
     font-size: 20px;
     font-weight: 400;
+
+    @media (max-width: 1200px) {
+        font-size: 18px;
+    }
 }
 
 .example_text {
@@ -772,6 +985,10 @@ footer {
     font-size: 20px;
     font-weight: 400;
     margin-top: 60px;
+
+    @media (max-width: 1200px) {
+        font-size: 18px;
+    }
 }
 
 .note_text {
@@ -831,17 +1048,48 @@ footer {
     padding: 0 50px;
     margin-top: 128px;
     margin-bottom: 100px;
+
+    @media (max-width: 1824px) {
+        font-size: 300px;
+    }
+
+    @media (max-width: 1440px) {
+        font-size: 250px;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 200px;
+    }
 }
 
 .promo_title_rhomb_wrapper {
     width: 212px;
     height: 212px;
+
+    @media (max-width: 1824px) {
+        width: 180px;
+        height: 180px;
+    }
+
+    @media (max-width: 1440px) {
+        width: 160px;
+        height: 160px;
+    }
+
+    @media (max-width: 1200px) {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 .promo__container {
     max-width: 1920px;
     width: 100%;
     padding: 100px 0;
+
+    @media (max-width: 1200px) {
+        padding: 60px 0;
+    }
 }
 
 .promo__fast-start-title {
@@ -854,9 +1102,13 @@ footer {
     font-size: 110px;
     max-width: 560px;
     width: 100%;
-    margin-left: 390px;
+    margin-left: 20%;
     margin-bottom: 100px;
     position: relative;
+
+    @media (max-width: 1200px) {
+        font-size: 95px;
+    }
 }
 
 .promo__fast_start_subtitle::after {
@@ -877,6 +1129,11 @@ footer {
     height: 141.42px;
     transform: translateY(18%);
 
+    @media (max-width: 1200px) {
+        width: 110px;
+        height: 110px;
+    }
+
     p {
         font-family: 'Futura PT', sans-serif;
         color: $whithe;
@@ -884,6 +1141,10 @@ footer {
         font-weight: 600;
         line-height: 130%;
         transform: rotate(-45deg);
+
+        @media (max-width: 1200px) {
+            font-size: 40px;
+        }
     }
 }
 
@@ -895,11 +1156,19 @@ footer {
     padding: 100px 115px;
     margin: auto;
 
+    @media (max-width: 1200px) {
+        padding: 60px 80px;
+    }
+
     p {
         font-family: 'Futura PT', sans-serif;
         font-size: 24px;
         font-weight: 400;
         line-height: 130%;
+
+        @media (max-width: 1200px) {
+            font-size: 22px;
+        }
     }
 
     h3 {
@@ -908,6 +1177,10 @@ footer {
         font-weight: 600;
         line-height: 120%;
         width: 60%;
+
+        @media (max-width: 1440px) {
+            font-size: 30px;
+        }
     }
 }
 
@@ -937,6 +1210,11 @@ footer {
     right: 0;
     top: 0;
 
+    @media (max-width: 1200px) {
+        width: 68px;
+        height: 68px;
+    }
+
     p {
         font-family: 'Futura PT', sans-serif;
         color: $whithe;
@@ -944,14 +1222,23 @@ footer {
         font-weight: 600;
         line-height: 130%;
         transform: rotate(-45deg);
+
+        @media (max-width: 1200px) {
+            font-size: 26px;
+        }
     }
 }
 
 .promo__heat_subtitle {
     @include title;
     font-size: 110px;
-    margin: 100px 390px;
+    margin: 100px 20%;
     position: relative;
+
+    @media (max-width: 1200px) {
+        font-size: 95px;
+        margin: 60px 20%;
+    }
 }
 
 .promo__heat_subtitle::after {
@@ -1083,9 +1370,13 @@ footer {
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 51, 51, 0.5) 0%, rgba(255, 51, 51, 0) 100%);
     padding: 133px 0 100px 0;
 
+    @media (max-width: 1200px) {
+        padding: 80px 0;
+    }
+
     .roadmap__container_title {
         width: 100%;
-        padding: 0 0 100px 391px;
+        padding: 0 0 100px 20%;
         display: flex;
         gap: 150px;
 
@@ -1093,8 +1384,6 @@ footer {
             @include title;
             color: $whithe;
             font-size: 110px;
-            top: -33px;
-            left: 391px;
         }
 
         p {
@@ -1115,11 +1404,25 @@ footer {
         padding: 0 275px;
         width: 100%;
         display: grid;
-        grid-template-rows: repeat(3, 250px);
-        grid-template-columns: repeat(5, 260px);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 20%);
         gap: 30px;
 
+        @media (max-width: 1824px) {
+            padding: 0 150px;
+        }
+
+        @media (max-width: 1440px) {
+            gap: 10px;
+            padding: 0 100px;
+        }
+
+        @media (max-width: 1200px) {
+            padding: 0 50px;
+        }
+
         .roadmap__grid-block {
+            min-height: 250px;
             box-sizing: border-box;
             background: linear-gradient(130.66deg, rgba(255, 255, 255, 0.3) -19.06%, rgba(255, 255, 255, 0) 31.37%), $black;
             box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3), inset 30px 30px 36px rgba(21, 21, 21, 0.5);
@@ -1135,10 +1438,18 @@ footer {
 
             .roadmap-block-date {
                 font-size: 14px;
+
+                @media (max-width: 1200px) {
+                    font-size: 13px;
+                }
             }
 
             .roadmap-block-text {
                 font-size: 20px;
+
+                @media (max-width: 1440px) {
+                    font-size: 18px;
+                }
             }
         }
     }
@@ -1167,6 +1478,10 @@ footer {
             @include title;
             color: $whithe;
             font-size: 110px;
+
+            @media (max-width: 1200px) {
+                font-size: 95px;
+            }
         }
 
         h2:nth-child(2) {
